@@ -48,7 +48,7 @@ public class Appliance {
      */
     public final static String LASER_POINTER = "laserPointer";
     /**
-     * 点选工具。目前主要用于 H5 课件。
+     * 点选工具。目前主要用于点击和选择 HTML5 文件上的内容。
      */
     public final static String CLICKER = "clicker";
     /**

@@ -6,22 +6,22 @@ import com.google.gson.annotations.SerializedName;
  */
 public enum ShapeType {
     /**
-     * `Triangle`：（默认）三角形。
+     * （默认）三角形。
      */
     @SerializedName("triangle")
     Triangle,
     /**
-     * `Rhombus`：菱形。
+     * 菱形。
      */
     @SerializedName("rhombus")
     Rhombus,
     /**
-     * `Pentagram`：五角星。
+     * 五角星。
      */
     @SerializedName("pentagram")
     Pentagram,
     /**
-     * `SpeechBalloon`：对话气泡。
+     * 对话气泡。
      */
     @SerializedName("speechBalloon")
     SpeechBalloon,

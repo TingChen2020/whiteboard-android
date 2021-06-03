@@ -922,7 +922,7 @@ public class Room extends Displayer {
      * @param scenes 由多个场景构成的数组。单个场景的字段详见 {@link com.herewhite.sdk.domain.Scene Scene}。
      * @param index  待插入的多个场景中，第一个场景在该场景组的索引号。如果传入的索引号大于该场景组已有场景总数，新插入的场景会排在现有场景的最后。场景的索引号从 0 开始。
      *
-     * **Example**
+     * **示例代码**
      * <pre>
      * {@code
      * room.putScenes("ppt", new Scene[]{new Scene("page1", new PptPage("https://white-pan.oss-cn-shanghai.aliyuncs.com/101/image/alin-rusu-1239275-unsplash_opt.jpg", 1024d, 768d))}, 0);

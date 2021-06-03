@@ -105,7 +105,7 @@ public class WhiteSdk {
      * @param bridge                白板界面，详见 {@link com.herewhite.sdk.WhiteboardView WhiteboardView}。
      * @param context               安卓活动 (Android Activity) 的上下文。
      * @param whiteSdkConfiguration SDK 实例的配置，详见 {@link com.herewhite.sdk.WhiteSdkConfiguration WhiteSdkConfiguration}。
-     * @param urlInterrupter        图片 URL 拦截设置，详见 {@link com.herewhite.sdk.domain.UrlInterrupter UrlInterrupter}。@deprecated 该参数已废弃。请改用 `CommonCallbacks` 接口中的 {@link CommonCallbacks#urlInterrupter(String) urlInterrupter} 方法。
+     * @param urlInterrupter        图片 URL 拦截设置，详见 {@link com.herewhite.sdk.domain.UrlInterrupter UrlInterrupter}。@deprecated `urlInterrupter` 参数已废弃。请改用 `CommonCallbacks` 接口中的 {@link CommonCallbacks#urlInterrupter(String) urlInterrupter} 方法。
      */
     public WhiteSdk(JsBridgeInterface bridge, Context context, WhiteSdkConfiguration whiteSdkConfiguration, UrlInterrupter urlInterrupter) {
         this(bridge, context, whiteSdkConfiguration);

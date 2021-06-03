@@ -88,7 +88,8 @@ public class WhiteSdkConfiguration extends WhiteObject {
          *
          * 自 2021 年 2 月 10 日起，将 PPTX 文件转换为 HTML 网页时，Agora Interactive 白板服务端支持对 PPTX 文件进行排版，以确保 PPTX 文件的文本在各个平台上的呈现保持一致。
          *
-         * @note Note: 自 2.12.27 版本起，`useServerWrap` 的默认值由 `false` 改为 `true`。
+         * @note
+         * 自 2.12.27 版本起，`useServerWrap` 的默认值由 `false` 改为 `true`。
          *
          * @param useServerWrap 是否开启服务端排版功能：
          * - `true`：（默认）开启。
@@ -176,7 +177,7 @@ public class WhiteSdkConfiguration extends WhiteObject {
     /**
      * 设置数据中心。
      *
-     * @note 该方法设置的数据中心必须与要加入的互动白板实时房间所在数据中心一致；否则，SDK 将无法连接到房间 。
+     * @note 该方法设置的数据中心必须与创建房间时设置的数据中心一致；否则，SDK 将无法连接到房间 。
      *
      * @param region 数据中心，详见 {@link com.herewhite.sdk.domain.Region Region}。
      */
